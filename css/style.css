@@ -223,7 +223,7 @@ p {
 .site-header #navigation .caret {
   margin-top: 10px;
   margin-left: 5px;
-  border-top-color: #fff;
+  border-top-color: #000;
 }
 .site-header #navigation > ul > li ul.sub-menu li:hover {
   background: #fff;

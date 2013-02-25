@@ -692,9 +692,9 @@ p {
 }
 
 div#callout {
-	-moz-box-shadow: inset 2px 2px 4px #444;
-	-webkit-box-shadow: inset 2px 2px 4px#444;
-	box-shadow: inner 2px 2px 4px #444;
+	-moz-box-shadow: inset 2px 2px 4px #222;
+	-webkit-box-shadow: inset 2px 2px 4px#222;
+	box-shadow: inner 2px 2px 4px #222;
 }
 
 .callout {
