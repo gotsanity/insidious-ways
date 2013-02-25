@@ -18,7 +18,7 @@
 	 */
 	global $page, $paged;
 
-	wp_title( '|', true, 'right' );
+	wp_title( '-', true, 'right' );
 
 	// Add the blog name.
 	bloginfo( 'name' );
@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="span12">
                         <hgroup>
-                            <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> <small> - <?php bloginfo( 'description' ); ?></small></a></h1>
+                            <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> <small><?php bloginfo( 'description' ); ?></small></a></h1>
                         </hgroup>
                     </div><!-- .span12 -->
                 </div><!-- .row -->
