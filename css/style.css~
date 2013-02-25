@@ -127,29 +127,31 @@ p {
   padding: 0;
 }
 .site-header .header {
-  margin-bottom: 10px;
   overflow: hidden;
 }
 .site-header h1.site-title {
   font-size: 32px;
   font-weight: normal;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  padding-bottom: 10px;
 }
 .site-header h1.site-title a:hover {
   text-decoration: none;
 }
- .site-header .divider {
-  border-left: 1px solid #dedede;
-  border-right: 1px solid #bababa;
-} 
+
 .site-header .site-navigation {
   position: relative;
 }
 .site-header .menu-container {
   position: relative;
 }
+
+.site-header .searchbar {
+	margin-top: 20px;
+}
+.site-header input[type=text] {
+	margin-bottom: 0;
+	margin-right: -50px;
+}
+
 .site-header #navigation {
   margin: 0;
   display: block;
@@ -703,7 +705,7 @@ div#callout {
 }
 
 .callout {
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
 .site-footer {
