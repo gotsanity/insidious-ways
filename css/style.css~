@@ -297,7 +297,7 @@ p {
   top: 100%;
   left: 0;
   z-index: 598;
-  width: 100%;
+/*  width: 100%; */
 }
 #navigation ul ul li {
   float: none;
@@ -323,7 +323,7 @@ p {
 }
 /* -- level mark -- */
 #navigation ul li ul {
-  width: 200px;
+/*  width: 200px; */
   margin-left: 0px;
 }
 #navigation ul li ul li ul li ul {
@@ -782,7 +782,10 @@ footer#colophon a:hover {
 
 #floor .floor-area .widget_rss ul {
 	margin-left: 0;
-	padding-bottom: 15px;
+}
+
+#floor .floor-area .widget_rss ul li {
+	padding-bottom: 10px;
 }
 
 #floor .floor-area .widget_rss a {
