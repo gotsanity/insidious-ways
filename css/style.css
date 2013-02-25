@@ -623,60 +623,60 @@ p {
 /*--------------------------------------------------
 :: Widgets General Styles
 -------------------------------------------------- */
-.widget {
+#secondary .widget {
 	margin: 10px;
 }
-.widget select {
+#secondary .widget select {
   max-width: 98%;
 }
-.widget input[type=text],
-.widget input[type=password] {
+#secondary .widget input[type=text],
+#secondary .widget input[type=password] {
   max-width: 93%;
 }
-.widget caption {
+#secondary .widget caption {
   padding: 0 0 5px 0;
 }
-.widget table {
+#secondary .widget table {
   width: 100%;
   margin-bottom: 20px;
 }
-.widget table td,
-.widget table th {
+#secondary .widget table td,
+#secondary .widget table th {
   padding: 8px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
-.widget table td#today {
+#secondary .widget table td#today {
   background: #ccc;
   color: #fff;
 }
-.widget .widget-title {
+#secondary .widget .widget-title {
   margin-bottom: 5px;
   border-bottom: 1px solid #DDD;
   padding: 3px 0;
 }
-.widget ul {
+#secondary .widget ul {
   margin-left: 0;
   list-style: none;
 }
-.widget ul li {
+#secondary .widget ul li {
   clear: left;
   padding: 5px 0;
   border-bottom: 1px solid #EEE;
 }
-.widget ul li:last-child {
+#secondary .widget ul li:last-child {
   border-bottom: none;
 }
-.widget .avatar {
+#secondary .widget .avatar {
   float: left;
   margin-right: 5px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-.widget .avatar img {
+#secondary .widget .avatar img {
   border: 1px solid #ccc;
   background: #fff;
 }
@@ -684,37 +684,30 @@ p {
 :: Footer Styles
 -------------------------------------------------- */
 #floor {
-	background-color: #333;
+	background-color: #444;
 	width: 100%;
 	margin: 0;
-	border-bottom: 5px solid #2183c4;
-	margin-bottom: 10px;
+	border-top: 5px solid #2183c4;
+	padding: 10px 0;
 }
 
-#floor .widget ul li {
-	border: none;
-}
-
-#floor .widget .widget-title {
-	border: none;
+.callout {
+	margin: 40px 0;
 }
 
 .site-footer {
-  padding: 0 0 10px 0;
   color: #fff;
   line-height: 200%;
   font-size: 14px;
-	background-color: #666;
+	background-color: #333;
+}
+
+.site-info {
+	padding: 20px 0;
 }
 
 /*--------------------------------------------------
 :: Sub-heading Styles
 -------------------------------------------------- */
 
-.subheader .widget ul li {
-	border: none;
-}
 
-.subheader .widget .widget-title {
-	border: none;
-}

@@ -6,6 +6,17 @@
  * @package _bootstraps - 2013 1.0
  */
 ?>
+<div id="callout" role="complementary">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="callout">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('callout') ) : endif; ?>
+                </div><!-- .site-info -->
+            </div>
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- #callout .callout -->
 <div id="floor" class="span12" role="complementary">
     <div class="container">
         <div class="row">

@@ -135,6 +135,14 @@ class WeDevs_Bootstrap {
             'after_title' => '</h3>',
         ) );
         register_sidebar( array(
+            'name' => __( 'Callout', 'callout' ),
+            'id' => 'callout',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) );
+        register_sidebar( array(
             'name' => __( 'Floor 1', 'floor1' ),
             'id' => 'floor1',
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',

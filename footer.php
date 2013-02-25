@@ -13,7 +13,7 @@
 </div><!-- #main .site-main -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-<?php get_sidebar('floor'); ?>
+	<?php get_sidebar('floor'); ?>
     <div class="container">
         <div class="row">
             <div class="span12">
