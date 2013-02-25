@@ -48,11 +48,14 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="span8">
                         <hgroup>
                             <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> <small><?php bloginfo( 'description' ); ?></small></a></h1>
                         </hgroup>
-                    </div><!-- .span12 -->
+                    </div><!-- .span8 -->
+					<div class="searchbar span4">
+						<?php get_search_form( $echo ); ?>
+					</div>
                 </div><!-- .row -->
             </div><!-- .container -->
 

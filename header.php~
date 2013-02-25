@@ -48,11 +48,14 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="span8">
                         <hgroup>
                             <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> <small><?php bloginfo( 'description' ); ?></small></a></h1>
                         </hgroup>
-                    </div><!-- .span12 -->
+                    </div><!-- .span8 -->
+					<div class="searchbar span4">
+						<p>search here</p>
+					</div>
                 </div><!-- .row -->
             </div><!-- .container -->
 
@@ -77,46 +80,7 @@
                         <div class="span12">
                           <div class="subheader">
 						        <?php if ( !dynamic_sidebar( 'subheader' ) ) : ?>
-<?php // Breadcrumb navigation
-    if (is_page() && !is_front_page() || is_single() || is_category()) {
-        echo '<ul class="breadcrumbs">';
-        echo '<li class="front_page"><a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
- 
-        if (is_page()) {
-            $ancestors = get_post_ancestors($post);
- 
-            if ($ancestors) {
-                $ancestors = array_reverse($ancestors);
- 
-                foreach ($ancestors as $crumb) {
-                    echo '<li><a href="'.get_permalink($crumb).'">'.get_the_title($crumb).'</a></li>';
-                }
-            }
-        }
- 
-        if (is_single()) {
-            $category = get_the_category();
-            echo '<li><a href="'.get_category_link($category[0]->cat_ID).'">'.$category[0]->cat_name.'</a></li>';
-        }
- 
-        if (is_category()) {
-            $category = get_the_category();
-            echo '<li>'.$category[0]->cat_name.'</li>';
-        }
- 
-        // Current page
-        if (is_page() || is_single()) {
-            echo '<li class="current">'.get_the_title().'</li>';
-        }
-        echo '</ul>';
-    } elseif (is_front_page()) {
-        // Front page
-        echo '<ul class="breadcrumbs">';
-        echo '<li class="front_page"><a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
-        echo '<li class="current">Home Page</li>';
-        echo '</ul>';
-    }
-?>
+									<?php get_breadcrumbs(); ?>
 						        <?php endif; // end sidebar widget area ?>
 							</div><!-- .subheader -->
                         </div><!-- .span12 -->
