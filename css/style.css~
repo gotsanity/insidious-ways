@@ -258,7 +258,7 @@ p {
 }
 .site-header #navigation > ul > li.current-menu-item:hover > a {
   background: #2183c4;
-	color: #fff;
+	color: #000;
 }
 /*  --------------------------------------------------
 :: Navigation
@@ -751,3 +751,49 @@ div#callout {
     content: none;
 }
 
+/*--------------------------------------------------
+:: Floor Widget Styles
+-------------------------------------------------- */
+
+#floor .floor-area .widget_nav_menu ul, #floor .floor-area .widget_meta ul {
+	margin: 0;
+}
+
+#floor .floor-area .widget_nav_menu ul ul {
+	margin-left: 10px;
+}
+
+footer#colophon a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#floor .floor-area ul {
+	list-style: none;
+}
+
+#floor .floor-area h3 {
+	font-size: 1.2em;
+}
+
+#floor .floor-area .widget_tag_cloud div {
+	line-height: 1.2em;
+}
+
+#floor .floor-area .widget_rss ul {
+	margin-left: 0;
+	padding-bottom: 15px;
+}
+
+#floor .floor-area .widget_rss a {
+	display: block;
+}
+
+#floor .floor-area .widget_rss ul span, #floor .floor-area .widget_rss ul cite {
+	color: #aaa;
+}
+
+#floor .floor-area .widget_rss div.rssSummary {
+	clear: both;
+	border-top: 1px solid #FFF;
+}
