@@ -129,8 +129,8 @@ class WeDevs_Bootstrap {
         register_sidebar( array(
             'name' => __( 'floor', 'floor' ),
             'id' => 'floor',
-            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-            'after_widget' => '</aside>',
+            'before_widget' => '<div class="span3"><div class="floor-area"><aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside></div></div>',
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>',
         ) );

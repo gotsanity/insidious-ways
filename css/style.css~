@@ -686,8 +686,21 @@ p {
 #floor {
 	background-color: #333;
 	width: 100%;
+	margin: 0;
 	border-bottom: 5px solid #2183c4;
 	margin-bottom: 10px;
+}
+
+#floor .widget {
+	float: left;
+}
+
+#floor .widget ul li {
+	border: none;
+}
+
+#floor .widget .widget-title {
+	border: none;
 }
 
 .site-footer {

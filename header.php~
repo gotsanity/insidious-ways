@@ -18,7 +18,7 @@
 	 */
 	global $page, $paged;
 
-	wp_title( '|', true, 'right' );
+	wp_title( '-', true, 'right' );
 
 	// Add the blog name.
 	bloginfo( 'name' );
@@ -76,6 +76,7 @@
                     <div class="row">
                         <div class="span12">
                           <div class="subheader">
+							<h1>test</h1>
 							</div><!-- .subheader -->
                         </div><!-- .span12 -->
                     </div><!-- .row -->

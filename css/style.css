@@ -691,6 +691,14 @@ p {
 	margin-bottom: 10px;
 }
 
+#floor .widget ul li {
+	border: none;
+}
+
+#floor .widget .widget-title {
+	border: none;
+}
+
 .site-footer {
   padding: 0 0 10px 0;
   color: #fff;
