@@ -77,7 +77,7 @@
                         <div class="span12">
                           <div class="subheader">
 						        <?php if ( !dynamic_sidebar( 'subheader' ) ) : ?>
-									<h1>Insert breadcrumbs widget here</h1>
+									<?php get_breadcrumbs(); ?>
 						        <?php endif; // end sidebar widget area ?>
 							</div><!-- .subheader -->
                         </div><!-- .span12 -->

@@ -390,7 +390,7 @@ p {
 .subheader-container {
 	display: block;
 	background-color: #ccc;
-	padding: 20px 0;
+	padding: 10px 0;
 	margin-bottom: 20px;
 }
 
@@ -722,8 +722,20 @@ div#callout {
 -------------------------------------------------- */
 
 .subheader-container {
-		-moz-box-shadow: 0px 2px 4px #999;
+	-moz-box-shadow: 0px 2px 4px #999;
 	-webkit-box-shadow: 0px 2px 4px #999;
 	box-shadow: 0px 2px 4px #999;
+}
+
+.breadcrumbs li {
+    list-style-type: none;
+    margin: 0 0.5em 0 0;
+}
+
+.breadcrumbs li:before {
+    content: "> ";
+}
+.breadcrumbs .front_page:before {
+    content: none;
 }
 
