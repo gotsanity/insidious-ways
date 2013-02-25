@@ -691,6 +691,12 @@ p {
 	padding: 10px 0;
 }
 
+div#callout {
+	-moz-box-shadow: inset 2px 2px 4px #222;
+	-webkit-box-shadow: inset 2px 2px 4px#222;
+	box-shadow: inner 2px 2px 4px #222;
+}
+
 .callout {
 	margin: 40px 0;
 }

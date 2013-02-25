@@ -691,6 +691,12 @@ p {
 	padding: 10px 0;
 }
 
+div#callout {
+	-moz-box-shadow: inset 2px 2px 4px #444;
+	-webkit-box-shadow: inset 2px 2px 4px#444;
+	box-shadow: inner 2px 2px 4px #444;
+}
+
 .callout {
 	margin: 40px 0;
 }
@@ -703,7 +709,7 @@ p {
 }
 
 .site-info {
-	padding: 15px 0;
+	padding: 20px 0;
 }
 
 /*--------------------------------------------------
