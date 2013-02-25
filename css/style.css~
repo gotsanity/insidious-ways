@@ -223,7 +223,7 @@ p {
 .site-header #navigation .caret {
   margin-top: 10px;
   margin-left: 5px;
-  border-top-color: #fff;
+  border-top-color: #000;
 }
 .site-header #navigation > ul > li ul.sub-menu li:hover {
   background: #fff;
@@ -401,6 +401,9 @@ p {
 	border-radius: 5px;  
 	border-radius: 5px;  
 	margin-bottom: 10px;
+		-moz-box-shadow: 0px 2px 4px #999;
+	-webkit-box-shadow: 0px 2px 4px #999;
+	box-shadow: 0px 2px 4px #999;
 }
 
 .site-content {
@@ -693,7 +696,7 @@ p {
 
 div#callout {
 	-moz-box-shadow: inset 2px 2px 4px #222;
-	-webkit-box-shadow: inset 2px 2px 4px#222;
+	-webkit-box-shadow: inset 2px 2px 4px #222;
 	box-shadow: inner 2px 2px 4px #222;
 }
 
@@ -716,4 +719,9 @@ div#callout {
 :: Sub-heading Styles
 -------------------------------------------------- */
 
+.subheader-container {
+		-moz-box-shadow: 0px 2px 4px #999;
+	-webkit-box-shadow: 0px 2px 4px #999;
+	box-shadow: 0px 2px 4px #999;
+}
 
