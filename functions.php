@@ -249,11 +249,17 @@ function get_breadcrumbs() {
             echo '<li class="current">'.get_the_title().'</li>';
         }
         echo '</ul>';
+
     } elseif (is_front_page()) {
         // Front page
         echo '<ul class="breadcrumbs">';
         echo '<li class="front_page"><a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
         echo '<li class="current">Home Page</li>';
         echo '</ul>';
-    }
+    } elseif (is_search()) {
+        echo '<ul class="breadcrumbs">';
+        echo '<li class="front_page"><a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
+		echo '<li class="current">Search</li>';
+		echo '</ul>';
+	}
 }
