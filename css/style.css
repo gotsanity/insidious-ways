@@ -388,7 +388,9 @@ p {
 -------------------------------------------------- */
 
 .subheader-container {
+	display: block;
 	background-color: #ccc;
+	padding: 10px 0;
 	margin-bottom: 20px;
 }
 
