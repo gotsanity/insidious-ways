@@ -7,7 +7,13 @@
  */
 ?>
 <div id="floor" class="span12" role="complementary">
-    <div class="floor-area">
-		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor') ) : endif; ?>
-    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+			    <div class="floor-area">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor') ) : endif; ?>
+        	    </div>
+		    </div>
+        </div><!-- .row -->
+    </div><!-- .container -->
 </div><!-- #floor .floor-area -->
