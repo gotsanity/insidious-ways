@@ -621,7 +621,7 @@ p {
   background: #ffffff;
 }
 /*--------------------------------------------------
-:: Sidebars
+:: Widgets General Styles
 -------------------------------------------------- */
 .widget {
 	margin: 10px;
@@ -681,7 +681,7 @@ p {
   background: #fff;
 }
 /*--------------------------------------------------
-:: Footer
+:: Footer Styles
 -------------------------------------------------- */
 #floor {
 	background-color: #333;
@@ -689,10 +689,6 @@ p {
 	margin: 0;
 	border-bottom: 5px solid #2183c4;
 	margin-bottom: 10px;
-}
-
-#floor .widget {
-	float: left;
 }
 
 #floor .widget ul li {
@@ -709,4 +705,16 @@ p {
   line-height: 200%;
   font-size: 14px;
 	background-color: #666;
+}
+
+/*--------------------------------------------------
+:: Sub-heading Styles
+-------------------------------------------------- */
+
+div#masthead .subheader-container .subheader .widget ul li {
+	border: none;
+}
+
+div#masthead .subheader-container .subheader .widget .widget-title {
+	border: none;
 }
