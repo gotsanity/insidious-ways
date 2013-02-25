@@ -9,7 +9,26 @@
 <div id="floor" class="span12" role="complementary">
     <div class="container">
         <div class="row">
-			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor') ) : endif; ?>
+			<div class="span3">
+				<div class="floor-area">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor1') ) : endif; ?>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="floor-area">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor2') ) : endif; ?>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="floor-area">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor3') ) : endif; ?>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="floor-area">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('floor4') ) : endif; ?>
+				</div>
+			</div>
         </div><!-- .row -->
     </div><!-- .container -->
 </div><!-- #floor .floor-area -->

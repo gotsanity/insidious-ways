@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="span12">
                           <div class="subheader">
-							<h1>test</h1>
+								<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('subheader') ) : endif; ?>
 							</div><!-- .subheader -->
                         </div><!-- .span12 -->
                     </div><!-- .row -->

@@ -119,6 +119,14 @@ class WeDevs_Bootstrap {
      */
     function widgets_init() {
         register_sidebar( array(
+            'name' => __( 'Sub-header', 'subheader' ),
+            'id' => 'subheader',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) );
+        register_sidebar( array(
             'name' => __( 'Sidebar', 'wedevs' ),
             'id' => 'sidebar-1',
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -127,10 +135,34 @@ class WeDevs_Bootstrap {
             'after_title' => '</h3>',
         ) );
         register_sidebar( array(
-            'name' => __( 'floor', 'floor' ),
-            'id' => 'floor',
-            'before_widget' => '<div class="span3"><div class="floor-area"><aside id="%1$s" class="widget %2$s">',
-            'after_widget' => '</aside></div></div>',
+            'name' => __( 'Floor 1', 'floor1' ),
+            'id' => 'floor1',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) );
+        register_sidebar( array(
+            'name' => __( 'Floor 2', 'floor2' ),
+            'id' => 'floor2',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) );
+        register_sidebar( array(
+            'name' => __( 'Floor 3', 'floor3' ),
+            'id' => 'floor3',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) );
+        register_sidebar( array(
+            'name' => __( 'Floor 4', 'floor4' ),
+            'id' => 'floor4',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>',
         ) );
