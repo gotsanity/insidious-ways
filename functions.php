@@ -261,5 +261,9 @@ function get_breadcrumbs() {
         echo '<li class="front_page"><a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
 		echo '<li class="current">Search</li>';
 		echo '</ul>';
+	} else {
+        echo '<ul class="breadcrumbs">';
+        echo '<li class="front_page">Go back to <a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a></li>';
+		echo '</ul>'; 
 	}
 }
