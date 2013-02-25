@@ -7,3 +7,14 @@ Description: A responsive theme based off of the bootstraps design (bootstrap + 
 Version: 1.0
 */
 
+#masthead .site-header {
+
+}
+
+div#main {
+	background-color: #999;
+}
+
+#footer {
+
+}

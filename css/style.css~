@@ -146,6 +146,7 @@ p {
 } 
 .site-header .site-navigation {
   position: relative;
+  height: 36px;
 }
 .site-header .menu-container {
   position: relative;

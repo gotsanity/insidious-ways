@@ -8,7 +8,6 @@
  * @package _bootstraps - 2013 1.0
  */
 ?>
-<?php get_sidebar('floor'); ?>
 </div><!-- .row -->
 </div><!-- .container -->
 </div><!-- #main .site-main -->
