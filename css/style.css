@@ -771,11 +771,15 @@ footer#colophon a:hover {
 }
 
 #floor .floor-area h3 {
-	font-size: 1.2em;
+	font-size: 1.6em;
+	font-weight: normal;
+	border-bottom: 1px solid #455;
 }
 
-#floor .floor-area .widget_tag_cloud div {
-	line-height: 1.2em;
+#floor .floor-area .widget_tag_cloud a {
+	display: block;
+	float: left;
+	font-size: 1em;
 }
 
 #floor .floor-area .widget_rss ul {
@@ -797,4 +801,8 @@ footer#colophon a:hover {
 #floor .floor-area .widget_rss div.rssSummary {
 	clear: both;
 	border-top: 1px solid #FFF;
+}
+
+#floor .floor-area .widget_text div.textwidget {
+	line-height: normal;
 }
