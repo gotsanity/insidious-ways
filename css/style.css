@@ -154,7 +154,8 @@ p {
 
 .site-header input[type=text] {
 	margin-bottom: 0;
-	margin-right: -50px;
+	margin-right: -7px;
+	width: 150px;
 }
 
 .site-header #navigation {
@@ -827,4 +828,13 @@ footer#colophon a:hover {
 
 #floor .floor-area .widget_text div.textwidget {
 	line-height: normal;
+}
+
+#floor .floor-area .widget_search input[type=submit] {
+	float: right;
+	margin-top: -35px;
+}
+
+#floor .floor-area .widget_search input[type=text] {
+	margin-right: -50px;
 }

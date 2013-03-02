@@ -801,7 +801,7 @@ footer#colophon a:hover {
 }
 
 #floor .floor-area .widget_tag_cloud div {
-
+	overflow: auto;
 }
 
 #floor .floor-area .widget_rss ul {
@@ -827,4 +827,13 @@ footer#colophon a:hover {
 
 #floor .floor-area .widget_text div.textwidget {
 	line-height: normal;
+}
+
+#floor .floor-area .widget_search input[type=submit] {
+	float: right;
+	margin-top: -35px;
+}
+
+#floor .floor-area .widget_search input[type=text] {
+	margin-right: -50px;
 }
