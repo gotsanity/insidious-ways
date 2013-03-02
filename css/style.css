@@ -832,9 +832,12 @@ footer#colophon a:hover {
 
 #floor .floor-area .widget_search input[type=submit] {
 	float: right;
-	margin-top: -35px;
+	margin-top: -30px;
 }
 
 #floor .floor-area .widget_search input[type=text] {
-	margin-right: -50px;
+	display: block;
+	margin-bottom: 0;
+	margin-right: -7px;
+	width: 145px;
 }
