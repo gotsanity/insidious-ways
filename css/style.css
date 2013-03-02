@@ -120,6 +120,20 @@ p {
 .site-content .gallery dd {
   margin: 0;
 }
+
+.widget_search input[type=submit] {
+	float: right;
+	margin-top: -30px;
+}
+
+.widget_search input[type=text] {
+	display: block;
+	margin-bottom: 0;
+	margin-right: -7px;
+	width: 215px;
+
+}
+
 /*--------------------------------------------------
 :: Header
 -------------------------------------------------- */
@@ -774,7 +788,15 @@ footer#colophon a:hover {
 #floor .floor-area h3 {
 	font-size: 1.6em;
 	font-weight: normal;
-	border-bottom: 1px solid #455;
+	border: 1px solid #455;
+	padding: 0 10px;
+	background: #2183c4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 0px 1px #000;
+	-webkit-box-shadow: 1px 0px 1px #000;
+	box-shadow: 1px 0px 1px #000;
 }
 
 #floor .floor-area .widget_tag_cloud a {
@@ -817,6 +839,11 @@ footer#colophon a:hover {
 	display: block;
 }
 
+#floor .floor-area .widget_rss h3 a {
+	display: inline;
+	color: #fff;
+}
+
 #floor .floor-area .widget_rss ul span, #floor .floor-area .widget_rss ul cite {
 	color: #aaa;
 }
@@ -830,14 +857,6 @@ footer#colophon a:hover {
 	line-height: normal;
 }
 
-#floor .floor-area .widget_search input[type=submit] {
-	float: right;
-	margin-top: -30px;
-}
-
 #floor .floor-area .widget_search input[type=text] {
-	display: block;
-	margin-bottom: 0;
-	margin-right: -7px;
-	width: 145px;
+	width: 140px;
 }
