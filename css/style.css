@@ -777,7 +777,6 @@ footer#colophon a:hover {
 }
 
 #floor .floor-area .widget_tag_cloud a {
-	display: block;
 	float: left;
 	font-size: 0.8em;
 	padding: 0 10px;
@@ -799,6 +798,10 @@ footer#colophon a:hover {
 
 #floor .floor-area .widget_tag_cloud a[style] {
 	font-size: 0.8em !important;
+}
+
+#floor .floor-area .widget_tag_cloud div {
+	overflow: auto;
 }
 
 #floor .floor-area .widget_rss ul {
