@@ -796,23 +796,11 @@ div#callout {
 	margin-right: 5px;
 	min-height: 24px;
 	height: 100%;
-/*	width: 15px; */
-}
-
-#floor .floor-area .widget_nav_menu ul ul {
-/*	margin-left: 20px; */
 }
 
 #floor .floor-area .widget_nav_menu ul ul li > ul li:before {
-/*	padding-left: 14px;  */
 	width: 1.5em;
-/*	margin-left: -20px; */
 }
-
-#floor .floor-area .widget_nav_menu ul ul li > ul li a {
-/*	margin-left: -5px; */
-}
-
 
 #floor .floor-area .widget_nav_menu ul a {
 	text-transform: capitalize;
