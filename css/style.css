@@ -772,8 +772,58 @@ div#callout {
 	margin: 0;
 }
 
+#floor .floor-area .widget_nav_menu li > ul li:before {
+	content: " ";
+	border: 1px solid #666;
+	background: #333;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 0px 1px #000;
+	-webkit-box-shadow: 1px 0px 1px #000;
+	box-shadow: 1px 0px 1px #000; 
+	position: relative;
+	float: left; 
+	display: block;
+	left: -20px;
+	height: 30px;
+	width: 15px;
+}
+
 #floor .floor-area .widget_nav_menu ul ul {
-	margin-left: 10px;
+	margin-left: 20px;
+}
+
+#floor .floor-area .widget_nav_menu li > ul li {
+/*	margin-left: 25px; */
+
+}
+
+#floor .floor-area .widget_nav_menu ul ul li > ul li:before {
+	padding-left: 14px; 
+	margin-left: -20px; 
+}
+
+#floor .floor-area .widget_nav_menu ul ul li > ul li a {
+	margin-left: -5px;
+}
+
+
+#floor .floor-area .widget_nav_menu ul a {
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	margin: 2px 0px;
+	padding: 5px;
+	border: 1px solid #666;
+	background: #555;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 0px 1px #000;
+	-webkit-box-shadow: 1px 0px 1px #000;
+	box-shadow: 1px 0px 1px #000;
 }
 
 footer#colophon a:hover {
