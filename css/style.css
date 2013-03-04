@@ -777,6 +777,10 @@ div#callout {
 	background-color: #333;
 }
 
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
+	color: #fff;
+}
+
 .site-info {
 	padding: 20px 0;
 }

@@ -437,7 +437,7 @@ p {
 		width: 90%;
 	}
 
-	#floor .floor-area widget_nav_menu ul.menu {
+	#floor .floor-area widget_nav_menu .menu {
 		margin: 5px 5px;
 	}
 	

@@ -79,9 +79,22 @@
                     <div class="row">
                         <div class="span12">
                           <div class="subheader">
-						        <?php if ( !dynamic_sidebar( 'subheader' ) ) : ?>
-									<?php get_breadcrumbs(); ?>
-						        <?php endif; // end sidebar widget area ?>
+				<div class="hidden-phone">
+					<?php
+						if (is_front_page()) {
+							if ( !dynamic_sidebar( 'subheader' ) ) : 
+								get_breadcrumbs();
+							endif; // end sidebar widget area 
+						} else {
+							get_breadcrumbs();
+						}
+					?>
+				</div><!-- .hidden-phone -->
+				<div class="visible-phone">
+					<?php if ( !dynamic_sidebar( 'subheader-responsive' ) ) : ?>
+							<?php get_breadcrumbs(); ?>
+					<?php endif; // end sidebar widget area ?>
+				</div><!-- .visible-phone -->	
 							</div><!-- .subheader -->
                         </div><!-- .span12 -->
                     </div><!-- .row -->
