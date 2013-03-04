@@ -442,7 +442,7 @@
 	}
 
 	#masthead div.searchbar {
-		visibility: hidden;
+		display: none;
 	}
 	
   .navbar-fixed-top,

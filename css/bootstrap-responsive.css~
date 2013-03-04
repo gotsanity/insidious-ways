@@ -437,12 +437,14 @@
 }
 
 @media (max-width: 767px) {
-	#main {
+	#main, #colophon > div {
 		padding: 0px 10px;
 	}
-	#colophon > div {
-		padding: 0px 10px;
+
+	#masthead div.searchbar {
+		visibility: hidden;
 	}
+	
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {

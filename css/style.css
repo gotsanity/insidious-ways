@@ -280,7 +280,7 @@ p {
 -------------------------------------------------- */
 #navigation {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 #navigation ul,
 #navigation ul li,
@@ -328,7 +328,7 @@ p {
   font-weight: normal;
 }
 #navigation ul li a {
-  padding: 7px 15px;
+  padding: 7px 15px; 
   display: block;
 }
 #navigation ul li a:link,
@@ -353,36 +353,34 @@ p {
 -------------------------------------------------- */
 @media (max-width: 768px) {
   .menu-toggle {
-    color: #FFFFFF;
+    color: #000;
     font-size: 22px;
     line-height: 36px;
     margin: 0;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 5px; 
   }
   .menu-toggle i.icon-reorder {
     padding: 0 5px 0 0;
-    margin-top: 5px;
+    margin-top: 5px; 
   }
-  .site-header #navigation {
-    background: #cccccc;
-    width: 100%;
-    overflow: hidden;
-  }
+
   #navigation .menu {
     display: none;
   }
   .site-header ul,
   .site-header li {
     float: none
-          overflow: hidden;
+    overflow: hidden;
   }
   .site-header #navigation > ul {
     padding-left: 0;
     float: none;
     overflow: hidden;
   }
-  .site-header #navigation li a {
-    background: #cccccc;
+	.site-header #navigation li:hover > a {
+		width: 100%;
+		background: #fff;
+		color: #000;
   }
   .site-header #navigation > ul > li {
     border-left: none;
@@ -392,12 +390,25 @@ p {
     float: none;
     display: block;
   }
+	.site-header #navigation li:hover ul.sub-menu {
+		box-shadow: none;
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		-ms-transition: none;
+		transition: none;
+		opacity: none;
+	}
   #navigation ul li ul {
-    position: inherit;
+    position: inherit; 
     visibility: visible;
   }
+	.site-header #navigation li:hover ul.sub-menu li {
+		border: none;
+	}
   .site-header #navigation li ul.sub-menu li {
-    height: auto;
+	
+	height: auto;
     opacity: 1;
   }
   .site-header #navigation li ul.sub-menu {
@@ -405,6 +416,7 @@ p {
     margin-left: 15px;
     float: none;
   }
+
 }
 
 /*--------------------------------------------------
