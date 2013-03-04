@@ -511,6 +511,10 @@ p {
 .site-content .entry-meta .sep {
   color: #c4c4c4;
 }
+
+.site-content .page-header {
+	display: none;
+}
 /*--------------------------------------------------
 :: Navigation
 -------------------------------------------------- */
