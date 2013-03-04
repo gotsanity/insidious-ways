@@ -390,6 +390,9 @@ p {
     float: none;
     display: block;
   }
+	#navigation ul ul ul {
+		position: relative;
+	}
 	.site-header #navigation li:hover ul.sub-menu {
 		box-shadow: none;
 		-webkit-transition: none;
@@ -400,7 +403,7 @@ p {
 		opacity: none;
 	}
   #navigation ul li ul {
-    position: relative; 
+    position: inherit; 
     visibility: visible;
   }
 	.site-header #navigation li:hover ul.sub-menu li {

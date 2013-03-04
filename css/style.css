@@ -390,6 +390,9 @@ p {
     float: none;
     display: block;
   }
+	#navigation ul ul ul {
+		left: 0;
+	}
 	.site-header #navigation li:hover ul.sub-menu {
 		box-shadow: none;
 		-webkit-transition: none;
