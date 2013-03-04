@@ -437,14 +437,7 @@
 }
 
 @media (max-width: 767px) {
-	#main, #colophon > div {
-		padding: 0px 10px;
-	}
 
-	#masthead div.searchbar {
-		display: none;
-	}
-	
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {

@@ -442,7 +442,11 @@
 	}
 
 	#masthead div.searchbar {
-		visibility: hidden;
+		display: none;
+	}
+
+	.widget_search input[type=text] {
+		width: 90%;
 	}
 	
   .navbar-fixed-top,

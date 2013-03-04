@@ -391,7 +391,7 @@ p {
     display: block;
   }
 	#navigation ul ul ul {
-		position: relative;
+		left: 0;
 	}
 	.site-header #navigation li:hover ul.sub-menu {
 		box-shadow: none;
@@ -419,6 +419,31 @@ p {
     margin-left: 15px;
     float: none;
   }
+
+	#main, #colophon > div {
+		padding: 0px 10px;
+	}
+
+	#masthead div.searchbar {
+		display: none;
+	}
+
+	#floor .floor-area .widget form, #floor .floor-area .widget_categories select, #floor .floor-area .widget_archive select {
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	#floor .floor-area .widget_search input[type=text].field, #floor .floor-area .widget_categories select {
+		width: 90%;
+	}
+
+	#floor .floor-area widget_nav_menu ul.menu {
+		margin: 5px 5px;
+	}
+	
+	#floor .floor-area widget h3 {
+		margin: 0;
+	}
 
 }
 

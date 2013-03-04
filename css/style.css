@@ -420,6 +420,31 @@ p {
     float: none;
   }
 
+	#main, #colophon > div {
+		padding: 0px 10px;
+	}
+
+	#masthead div.searchbar {
+		display: none;
+	}
+
+	#floor .floor-area .widget form, #floor .floor-area .widget_categories select, #floor .floor-area .widget_archive select {
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	#floor .floor-area .widget_search input[type=text].field, #floor .floor-area .widget_categories select {
+		width: 90%;
+	}
+
+	#floor .floor-area widget_nav_menu .menu {
+		margin: 5px 5px;
+	}
+	
+	#floor .floor-area widget h3 {
+		margin: 0;
+	}
+
 }
 
 /*--------------------------------------------------
