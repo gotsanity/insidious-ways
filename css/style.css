@@ -25,6 +25,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Franchise';
+	src: url('font/Franchise-Bold-hinted.eot');
+	src: local('☺'), url('font/Franchise-Bold-hinted.woff') format('woff'), url('font/Franchise-Bold-hinted.ttf') format('truetype'), url('font/Franchise-Bold-hinted.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -799,6 +807,11 @@ p {
 #secondary .widget .avatar img {
   border: 1px solid #ccc;
   background: #fff;
+}
+
+h3.widget-title {
+	font-family: 'Franchise';
+	font-style: normal;
 }
 /*--------------------------------------------------
 :: Footer Styles
