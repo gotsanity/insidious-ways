@@ -33,6 +33,43 @@
 	font-style: normal;
 }
 
+/* ------------------------------------------------------
+Fonts - Roboto
+------------------------------------------------------- */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('font/Roboto-Regular.eot');
+	src: local('☺'), url('font/Roboto-Regular.woff') format('woff'), url('font/Roboto-Regular.ttf') format('truetype'), url('font/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('font/Roboto-Italic.eot');
+	src: local('☺'), url('font/Roboto-Italic.woff') format('woff'), url('font/Roboto-Italic.ttf') format('truetype'), url('font/Roboto-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: italic, oblique;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('font/Roboto-Bold.eot');
+	src: local('☺'), url('font/Roboto-Bold.woff') format('woff'), url('font/Roboto-Bold.ttf') format('truetype'), url('font/Roboto-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('font/Roboto-BoldItalic.eot');
+	src: local('☺'), url('font/Roboto-BoldItalic.woff') format('woff'), url('font/Roboto-BoldItalic.ttf') format('truetype'), url('font/Roboto-BoldItalic.svg') format('svg');
+	font-weight: bold;
+	font-style: italic, oblique;
+}
+/* ----------------------------------------------- */
+
 .clearfix {
   *zoom: 1;
 }
@@ -516,6 +553,10 @@ p {
 /*--------------------------------------------------
 :: Content
 -------------------------------------------------- */
+p, ol, ul, a, div {
+	font-family: 'Roboto';
+}
+
 #secondary {
 	background-color: #eee;
 	-moz-border-radius: 5px 5px 5px 5px; 
