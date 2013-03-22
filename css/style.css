@@ -796,7 +796,7 @@ p {
 }
 #secondary .widget ul li {
   clear: left;
-  padding: 5px 0;
+  padding: 0;
   border-bottom: 1px solid #EEE;
 }
 #secondary .widget ul li:last-child {
