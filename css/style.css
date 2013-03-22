@@ -585,7 +585,11 @@ body, p, ol, ul, a, div {
   font-weight: bold;
   line-height: normal;
   font-size: 32px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+.site-content .entry-meta {
+	margin-top: -10px;
 }
 .site-content .entry-header .entry-title a {
   color: #222;
