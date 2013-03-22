@@ -546,14 +546,14 @@ p {
 .subheader-container {
 	display: block;
 	background-color: #ccc;
-	padding: 10px 0;
+	padding: 2px 0px 10px 0px;
 	margin-bottom: 20px;
 }
 
 /*--------------------------------------------------
 :: Content
 -------------------------------------------------- */
-p, ol, ul, a, div {
+body, p, ol, ul, a, div {
 	font-family: 'Roboto';
 }
 
